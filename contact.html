@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"  href="style.css">
+</head>
+<body>
+    <div class="container1">
+      <div class="header" >
+       <nav>
+         
+         <div class="logo">
+          <h1>Dev Blog</h1>
+         </div>
+
+         <ul class="mainMenu">
+            <li ><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>   
+            <li><a href="#">Services</a></li>
+            <li><a href="contact.html" class="active">Contact </a></li>
+         </ul>
+      
+         <a href="#" class="mobile">&#9776;</a>
+      </nav>
+      </div> 
+      <div class="wrapper">
+      <div class="form-container1">
+          <div class="heading">
+            <h2>Contact Us</h2>
+          </div>
+          <form action="" >
+            <div class="input_box">
+               <i class="fa fa-user"></i>
+               <input type="text" placeholder="Name"  id="name"><br>
+               <span id="s1" class="error"></span><br>
+            </div>
+           
+            <div class="input_box">
+               <i class="fa fa-envelope"></i>
+               <input type="email" placeholder="Email"  id="email"><br>
+               <span id="s2" class="error" ></span><br>
+            </div>
+            <div class="input_box">
+               <i class="fa fa-phone"></i>
+               <input type="tel" placeholder="Phone no." id="phone" ><br>
+               <span id="s3" class="error"></span><br>
+            </div>
+            <div class="input_box">
+               
+               <textarea rows="7" placeholder="Message" name="message" id="message"></textarea><br> 
+               <span id="s4" class="error">  </span><br>
+            </div>
+            <div class="submit">
+               <button type="submit"onclick= "return validate()" >send</button>
+                
+            </div>
+          </form>
+
+      </div>
+      </div>
+
+      <div class="footer">
+       <i> Copyright &copy Dev Blog 2021-2022</i>
+     </div>
+      
+     
+
+</div>
+<script src="app.js">  </script>
+<script src="app1.js">  </script>     
+</body>
+</html>
